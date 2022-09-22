@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: flask-hello-app
-        image: public.ecr.aws/m3y1x5s9/flask-example:latest
+        image: <copy your ecr URI and paste here>
         resources:
           limits:
             memory: "128Mi"
