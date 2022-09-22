@@ -1,0 +1,1 @@
+a flask app that was dockerized and was push to AWS ECR then ran using AWS EKS
