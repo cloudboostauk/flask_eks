@@ -16,10 +16,10 @@ spec:
     spec:
       containers:
       - name: flask-hello-app
-        image: <copy your ecr URI and paste here>
+        image: public.ecr.aws/m3y1x5s9/flask-example:latest
         resources:
           limits:
             memory: "128Mi"
             cpu: "500m"
         ports:
-        - containerPort: 50
+        - containerPort: 5000

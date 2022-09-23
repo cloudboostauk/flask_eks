@@ -6,7 +6,8 @@ spec:
   selector:
     app: flask-hello-app
   ports:
-  - nodePort: 30036
-    port: 5000
-    targetPort: 50 
+  - port: 5000
+    targetPort: 5000
+    protocol: TCP
+    nodePort: 30036
   type: LoadBalancer
